@@ -13,6 +13,7 @@ public class CreateOrgTest {
 		System.out.println(System.getProperty("url"));
 		System.out.println(System.getProperty("username"));
 		System.out.println(System.getProperty("password"));
+		Assert.fail();
 
 		/*
 		 * WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
@@ -30,5 +31,6 @@ public class CreateOrgTest {
 	@Test
 	public void deleteOrg() {
 		System.out.println("execute deleteOrg");
+		Assert.fail();
 	}
 }
