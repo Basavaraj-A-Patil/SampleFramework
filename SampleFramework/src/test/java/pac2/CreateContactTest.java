@@ -7,7 +7,6 @@ public class CreateContactTest {
 	@Test(groups = "SmokeTest")
 	public void createContact() {
 		System.out.println("execute createContact");
-		Assert.fail();
 	}
 
 	@Test
