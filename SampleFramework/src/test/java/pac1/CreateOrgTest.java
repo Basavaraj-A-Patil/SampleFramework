@@ -12,16 +12,20 @@ public class CreateOrgTest {
 		System.out.println(System.getProperty("url"));
 		System.out.println(System.getProperty("username"));
 		System.out.println(System.getProperty("password"));
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("http://localhost:8888/");
-		Thread.sleep(2000);
-		driver.quit();
+		/*
+		 * WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
+		 * driver.get("http://localhost:8888/"); Thread.sleep(2000); driver.quit();
+		 */
 		
 	}
 
 	@Test
 	public void createOrgWithPhone() {
 		System.out.println("execute createOrgWithPhone");
+	}
+	
+	@Test
+	public void deleteOrg() {
+		System.out.println("execute deleteOrg");
 	}
 }
