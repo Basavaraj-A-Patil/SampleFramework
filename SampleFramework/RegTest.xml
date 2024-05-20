@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="pac2.CreateContact"/>
-      <class name="pac1.CreateOrg"/>
+      <class name="pac2.CreateContactTest"/>
+      <class name="pac1.CreateOrgTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
