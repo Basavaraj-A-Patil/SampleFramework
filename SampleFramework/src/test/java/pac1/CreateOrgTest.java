@@ -14,11 +14,10 @@ public class CreateOrgTest {
 		System.out.println(System.getProperty("username"));
 		System.out.println(System.getProperty("password"));
 
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("http://localhost:8888/");
-		Thread.sleep(2000);
-		driver.quit();
+		/*
+		 * WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
+		 * driver.get("http://localhost:8888/"); Thread.sleep(2000); driver.quit();
+		 */
 
 	}
 
