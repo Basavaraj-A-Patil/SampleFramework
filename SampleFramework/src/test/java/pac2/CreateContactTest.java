@@ -2,7 +2,7 @@ package pac2;
 
 import org.testng.annotations.Test;
 
-public class CreateContact {
+public class CreateContactTest {
 	@Test(groups = "SmokeTest")
 	public void createContact() {
 		System.out.println("execute createContact");

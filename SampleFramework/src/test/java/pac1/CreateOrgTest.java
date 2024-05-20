@@ -2,7 +2,7 @@ package pac1;
 
 import org.testng.annotations.Test;
 
-public class CreateOrg {
+public class CreateOrgTest {
 	@Test(groups = "SmokeTest")
 	public void createOrg() {
 		System.out.println("execute createOrg");
