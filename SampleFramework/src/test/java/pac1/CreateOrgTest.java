@@ -2,6 +2,7 @@ package pac1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CreateOrgTest {
@@ -24,6 +25,7 @@ public class CreateOrgTest {
 	@Test
 	public void createOrgWithPhone() {
 		System.out.println("execute createOrgWithPhone");
+		Assert.fail();
 	}
 
 	@Test
