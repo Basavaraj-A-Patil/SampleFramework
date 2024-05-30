@@ -15,4 +15,10 @@ public class CreateContactTest {
 		System.out.println("execute createContactWithOrg");
 		Assert.fail();
 	}
+
+	@Test
+	public void createContactMobile() {
+		System.out.println("execute createContactMobile");
+		Assert.fail();
+	}
 }
