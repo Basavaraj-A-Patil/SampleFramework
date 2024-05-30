@@ -18,7 +18,7 @@ public class CreateContactTest {
 
 	@Test
 	public void createContactMobile() {
-		System.out.println("execute createContactMobile");
+		System.out.println("execute createContactMobile or Phone");
 		Assert.fail();
 	}
 }
